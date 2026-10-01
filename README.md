@@ -101,4 +101,4 @@ The protocol was reverse-engineered by **Bharadwaj Raju**: [Creating a Linux con
 
 ## License
 
-MIT. Add a `LICENSE` file to the repository.
+[MIT.](./LICENSE)
