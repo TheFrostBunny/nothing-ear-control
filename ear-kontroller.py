@@ -128,7 +128,7 @@ def resolve_address(arg):
     return addr
 
 
-# ---------- Kommunikasjon ----------
+# Kommunikasjon
 
 def check_bluetooth_support():
     if not (hasattr(socket, "AF_BLUETOOTH") and hasattr(socket, "BTPROTO_RFCOMM")):
@@ -185,7 +185,7 @@ def connection_hint():
             "('bluetoothctl connect <adresse>') og at bluetooth-tjenesten kjører.")
 
 
-# ---------- GUI (Tkinter) ----------
+# GUI (Tkinter)
 
 def run_gui():
     import threading
@@ -288,7 +288,7 @@ def run_gui():
     def on_pick(_event=None):
         addr_var.set(combo.get().split()[0])
 
-    # --- Enhet ---
+    # Enhet
     f = ttk.LabelFrame(root, text="Enhet")
     f.grid(row=0, column=0, sticky="ew", **pad)
     ttk.Label(f, text="Adresse:").grid(row=0, column=0, **pad)
