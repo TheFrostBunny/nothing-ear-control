@@ -19,7 +19,7 @@ Unofficial Python controller for **Nothing Ear (2)** and **Nothing Ear (2024)** 
 
 | Device | Status |
 | --- | --- |
-| Nothing Ear (2024) | Tested on Windows (command line) |
+| Nothing Ear (2024) | Tested on Windows |
 | Nothing Ear (2) | Protocol was reverse-engineered for this model, but not tested with this script |
 | Other Nothing / CMF earbuds | Untested; they may share the protocol but could use different packets |
 
